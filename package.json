@@ -1,0 +1,46 @@
+{
+  "name": "telmanradmir",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -n web,api -c cyan,green \"vite\" \"tsx watch server/index.ts\"",
+    "dev:web": "vite",
+    "dev:api": "tsx watch server/index.ts",
+    "build": "tsc -b && vite build",
+    "start": "tsx server/index.ts",
+    "db:migrate": "better-auth migrate --config server/auth.ts -y",
+    "typecheck": "tsc -b && tsc -p tsconfig.server.json",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@hono/node-server": "^2.0.4",
+    "@libsql/client": "^0.17.3",
+    "@libsql/kysely-libsql": "^0.4.1",
+    "better-auth": "^1.6.18",
+    "dotenv": "^17.4.2",
+    "framer-motion": "^12.40.0",
+    "hono": "^4.12.25",
+    "nodemailer": "^9.0.0",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^24.12.3",
+    "@types/nodemailer": "^8.0.1",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^4.7.0",
+    "concurrently": "^10.0.3",
+    "eslint": "^10.3.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.6.0",
+    "tsx": "^4.22.4",
+    "typescript": "~6.0.2",
+    "typescript-eslint": "^8.59.2",
+    "vite": "^6.4.3"
+  }
+}

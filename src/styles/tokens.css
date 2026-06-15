@@ -1,0 +1,89 @@
+:root {
+  --bg: #f1f0ec;
+  --bg-glow: #fbfbf9;
+  --surface: #ffffff;
+  --surface-2: #faf9f6;
+  --surface-3: #f1f0ea;
+
+  --ink: #16181c;
+  --ink-2: #3d4047;
+  --muted: #74777f;
+  --faint: #a4a7af;
+
+  --border: #e6e5df;
+  --border-strong: #d6d5cd;
+
+  --screen: #0c1311;
+  --screen-2: #111a17;
+  --screen-line: rgba(255, 255, 255, 0.08);
+  --screen-ink: #f4f7f5;
+  --screen-muted: #7f968d;
+
+  --accent: #1c6b4c;
+  --accent-bright: #2b9c6f;
+  --accent-press: #14543b;
+  --accent-ink: #ffffff;
+  --accent-soft: rgba(28, 107, 76, 0.1);
+  --accent-line: rgba(28, 107, 76, 0.22);
+  --accent-ring: rgba(28, 107, 76, 0.32);
+
+  --danger: #b42318;
+  --danger-soft: rgba(180, 35, 24, 0.1);
+
+  --font-display: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Hanken Grotesk", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", monospace;
+
+  --fs-hero: clamp(2rem, 4vw, 2.5rem);
+  --fs-title: 1.75rem;
+  --fs-heading: 1.25rem;
+  --fs-body: 1rem;
+  --fs-body-sm: 0.875rem;
+  --fs-label: 0.8125rem;
+  --fs-helper: 0.8125rem;
+  --fs-button: 0.9375rem;
+  --fs-mono: 0.8125rem;
+
+  --s-1: 4px;
+  --s-2: 8px;
+  --s-3: 12px;
+  --s-4: 16px;
+  --s-5: 24px;
+  --s-6: 32px;
+  --s-7: 48px;
+  --s-8: 64px;
+  --s-9: 96px;
+
+  --r-xs: 6px;
+  --r-sm: 9px;
+  --r-md: 12px;
+  --r-lg: 16px;
+  --r-xl: 22px;
+  --r-2xl: 28px;
+  --r-pill: 999px;
+
+  --shadow-sm: 0 1px 2px rgba(20, 22, 26, 0.06);
+  --shadow-md:
+    0 1px 0 rgba(255, 255, 255, 0.8) inset,
+    0 2px 4px -2px rgba(20, 22, 26, 0.1),
+    0 12px 28px -12px rgba(20, 22, 26, 0.18);
+  --shadow-card:
+    0 1px 0 rgba(255, 255, 255, 0.9) inset,
+    0 4px 10px -6px rgba(20, 22, 26, 0.14),
+    0 30px 60px -28px rgba(20, 22, 26, 0.28);
+  --shadow-key:
+    0 1px 0 rgba(255, 255, 255, 0.7) inset,
+    0 1px 2px rgba(20, 22, 26, 0.07);
+  --shadow-key-press: 0 1px 2px rgba(20, 22, 26, 0.12) inset;
+  --shadow-screen:
+    0 1px 0 rgba(255, 255, 255, 0.06) inset,
+    0 18px 40px -24px rgba(10, 18, 15, 0.7);
+
+  --ring: 0 0 0 3px var(--accent-ring);
+
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --ease-spring: cubic-bezier(0.34, 1.4, 0.5, 1);
+  --dur-1: 0.14s;
+  --dur-2: 0.22s;
+  --dur-3: 0.36s;
+}
