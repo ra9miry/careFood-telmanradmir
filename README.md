@@ -1,5 +1,6 @@
 App: https://telmanradmir.vercel.app
 
+How install: https://github.com/ra9miry/careFood-telmanradmir/blob/main/howinstall.md
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
